@@ -15,7 +15,7 @@ body {
 
  #submitButton {
 	 margin-left:-14px;
- }
+ } 
 
 
 
@@ -80,14 +80,16 @@ body {
 }
 
 #updateInventoryForm h1 {
-    background: #006A2F;
+    background: linear-gradient(white,lightgray);
     padding: 20px 30px 15px 30px;
     margin: -40px -30px 30px -30px;
     border-radius: 10px 10px 0 0;
-    color: #ffffff;
-    font: normal 30px Arial;
+    color: darkgreen;
+    font: 30px Arial;
+    text-shadow: 2px 2px 5px lightgrey;
     box-shadow: inset 1px 2px 2px 3px rgba(255, 255, 255, 0.14);
-    border: 2px solid #006400;
+    border: 1px solid white;
+    border-bottom: 1px solid darkgreen;
 }
 
 #updateInventoryForm label {
@@ -112,17 +114,18 @@ body {
 #updateInventoryForm input[type="button"],
 #updateInventoryForm input[type="submit"],
 #updateInventoryForm input[type="submit"]:hover {
-    background: #006A2F;
-    padding: 8px 200px 8px 200px;
-    border-radius: 15px;
-    color: #ffffff;
-    font: normal 15px Arial;
-    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-    border: 1px solid #006400;
+  background: #63831d;
+  padding: 8px 200px 8px 200px;
+  border-radius: 15px;
+  color: #ffffff;
+  font: normal 15px Arial;
+  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  border: 1px solid #006400;
+  margin-left: -15px;
 }
 
 #updateInventoryForm input[type="submit"]:hover {
-    background: #009543;
+    background: darkgreen;
 }
 
 #butonDiv {
@@ -137,6 +140,7 @@ body {
   font-size: 12px;
   text-align: center;
   padding-top: 15px;
+  position: relative;
 }
 
 /*List INVENTORY */

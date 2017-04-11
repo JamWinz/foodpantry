@@ -22,15 +22,12 @@ body {
  }
 
  #updateButton {
-   box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
    color: white;
    font-size: 12.5px;
    border-radius: 10px;
    margin-left: 92px;
-   padding: 10px;
-   background: linear-gradient(green, black);
-   border-color: #006A2F;
-
+   padding: 7px;
+   background: linear-gradient(darkgreen,black);
  }
 
  #submitButton {
@@ -39,38 +36,29 @@ body {
 
 
  #listButton {
-   box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
    color: white;
    font-size: 12.5px;
    border-radius: 10px;
    float: right;
    margin-right: 95px;
-   margin-top: -39.5px;
-   padding: 10px;
-   background: linear-gradient(green, black);
-   border-color: #006A2F;
+   margin-top: -34px;
+   padding: 7px;
+   background: linear-gradient(darkgreen,black);
  }
 
  #ordersButton {
-   box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
    color: white;
    font-size: 12.5px;
    border-radius: 10px;
    float: right;
-   margin-right: 239px;
-   margin-top: -57px;
-   padding: 10px;
-   background: linear-gradient(green, black);
-   border-color: #006A2F;
+   margin-right: 241px;
+   margin-top: -52px;
+   padding: 7px;
+   background: linear-gradient(darkgreen,black);
  }
 
  #pageTitle {
-
-   margin-left: 280px;
-
-   /*color: #fff;
-   text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
-   letter-spacing: 9px;*/
+   margin-left: 0px;
  }
 
  #pageTitle2 {
@@ -146,14 +134,16 @@ body {
 
 
 #updateInventoryForm h1 {
-    background: #006A2F;
-    padding: 20px 30px 15px 30px;
-    margin: -40px -30px 30px -30px;
-    border-radius: 10px 10px 0 0;
-    color: #ffffff;
-    font: normal 30px Arial;
-    box-shadow: inset 1px 2px 2px 3px rgba(255, 255, 255, 0.14);
-    border: 2px solid #006400;
+  background: linear-gradient(white,lightgray);
+  padding: 20px 30px 15px 30px;
+  margin: -40px -30px 30px -30px;
+  border-radius: 10px 10px 0 0;
+  color: #63831d;
+  text-shadow: 2px 2px 5px lightgrey;
+  font: normal 30px Arial;
+  box-shadow: inset 1px 2px 2px 3px rgba(255, 255, 255, 0.14);
+  border: 1px solid white;
+  border-bottom: 1px solid darkgreen;
 }
 
 #updateInventoryForm label {
@@ -179,13 +169,13 @@ body {
 #updateInventoryForm input[type="button"],
 #updateInventoryForm input[type="submit"],
 #updateInventoryForm input[type="submit"]:hover {
-    background: #006A2F;
-    padding: 8px 200px 8px 200px;
-    border-radius: 15px;
-    color: #ffffff;
-    font: normal 15px Arial;
-    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-    border: 1px solid #006400;
+  background: #63831d;
+  padding: 8px 200px 8px 200px;
+  border-radius: 15px;
+  color: #ffffff;
+  font: normal 15px Arial;
+  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  border: 1px solid #006400;
 }
 
 #updateInventoryForm input[type="submit"]:hover {
